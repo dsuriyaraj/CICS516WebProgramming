@@ -1,0 +1,68 @@
+/******************************
+Name: Suriyaraj Dhanasekaran
+Student No: 87500147
+
+All Extra Features completed: 
+1. Back ground
+2. Favicon
+3. Pie bullet
+4. Wide headings
+5. Tight heading background
+*******************************/
+
+body {
+	background-color: white;
+	font-family: Georgia,Garamond,serif; 
+	color: #404040;
+	font-size: 11pt;
+	background-image: url("http://ws.mss.icics.ubc.ca/~feeley/cur/hw/hw1/images/silverware.jpg");
+	background-attachment: fixed;
+}
+
+a {
+    color: #A4A400;
+}
+
+h1,h2 {
+	
+	font-family:  "Lucida Sans", Unicode, Helvetica, Arial, sans-serif;
+	font-size: 18pt;
+	text-decoration: underline;
+	text-align: left;
+	font-weight: normal;
+	color: #A4A400;
+	letter-spacing: 0.25em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 22pt;
+	font-weight: bold;
+}
+
+.comment1,.comment2,.comment3{
+	background-color: #FFFFA8;
+	margin-left:50px;
+	font-style: italic;
+}
+
+ul{
+	list-style-image: url('http://ws.mss.icics.ubc.ca/~feeley/cur/hw/hw1/images/pie_icon.gif');
+}
+
+span {
+	background-color: #F0F0F0; 
+	padding: 0.25em 0 0.25em 0; 
+}
+
+p span{
+	display: block;
+	background-color: #FFFFA8;
+}
+
+abbr{
+	text-decoration: underline;
+}
+
+
+

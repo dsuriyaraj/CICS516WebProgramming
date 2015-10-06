@@ -1,0 +1,63 @@
+/**************************************************
+	Name            : Suriyaraj Dhanasekaran
+	Student#        : 87500147  
+	Description     : CSS file for cow.html
+***************************************************/
+
+#header , #footer {
+	background-color: #005AB4;
+	overflow: hidden;
+	padding: 0.5em;
+	color: white;
+}
+
+#header img {
+	float : left;
+	padding-right: 1em;
+}
+
+body{
+	background-color: white;
+	font-family: Arial,Helvetica;
+	font-size: 14pt;
+	padding: 0px;
+	margin: 0px;
+	color: #005AB4;
+}
+
+#userTag{
+	font-style: italic;
+}
+
+#login,#toDoDiv{
+	padding: 2em;	
+}
+
+#login {
+	display : block;
+}
+
+#login input, #itemtobeAdded {
+	padding:5px;
+}
+
+#logout{
+	text-decoration: underline;
+}
+
+.para {
+	font-weight: bold;
+}
+
+#login  ,#Login , #addanItem , #deleteanItem  {
+	min-width: 80px;
+	font-weight: bold;
+	color: #005AB4;
+}
+
+#invalid {
+	display : inline;
+	color: red;
+	margin: 1em;
+	font-weight: normal;
+}

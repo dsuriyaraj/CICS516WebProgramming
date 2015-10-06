@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+Name            : Suriyaraj Dhanasekaran
+Student#        : 87500147
+Description     : This the HTML page for the Assignment 5
+-->
+<html>
+	<head>
+		<title>ASCIImation</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="ascii.css" type="text/css"  rel="stylesheet" />
+	</head>
+	
+	<body>
+		<h1>CSE 190M ASCII Animation Viewer</h1>
+		
+		<div id="maintextbox">
+			<textarea id = "textArea" cols="80" rows="20">
+			</textarea>
+		</div>
+	
+		<div id="controls">	
+			
+			<fieldset>
+				<legend>Play Controls:</legend>
+				<input id="start_button" name="strtbutton" type="button" value="Start" onclick="Start();"/>
+				<input id="stop_button" name="stopbutton" type="button" value="Stop" onclick="Stop();"/>    
+			</fieldset>
+			
+			<fieldset>
+				<legend>Animation:</legend>
+				<select id="drop_down" name="dropdownselect" onchange="Animate(this.value);">
+					<option selected="selected" value = "blank">Blank</option>
+					<option value = "Exercise">Exercise</option>
+					<option value = "Juggler">Juggler</option>
+					<option value = "bike">Bike</option>
+					<option value = "dive">Dive</option>
+					<option value = "custom">Custom</option>
+				</select> 
+			</fieldset>
+			
+			<fieldset>
+				<legend>Size:</legend>
+				<select id="select_size" name="selectsize" onchange="ChangeSize(this.value);">
+					<option value="7pt">Tiny</option>
+					<option value="10pt">Small</option>
+					<option value="12pt" selected="selected">Medium</option>
+					<option value="16pt">Large</option>
+					<option value="24pt">Extra Large</option>
+					<option value="32pt">XXL</option>
+				</select> 
+			</fieldset>
+			
+			<fieldset>
+				<legend>Speed:</legend>
+				<input id="checkturbo" name="checkturbospeed" type="checkbox" onchange="Accelerate();"/>Turbo
+			</fieldset>
+		</div>
+		
+		<!--Validators-->	
+		<div id="check">
+			<a href="https://webster.cs.washington.edu/validate-html.php"><img src="http://webster.cs.washington.edu/w3c-html.png" alt="Valid HTML5" /></a> <br/>   
+			<a href="https://webster.cs.washington.edu/validate-css.php"><img src="http://webster.cs.washington.edu/w3c-css.png"  alt="Valid CSS" /></a> <br/>
+			<a href="http://webster.cs.washington.edu/jslint?referer"><img src="https://webster.cs.washington.edu/w3c-js.png"  alt="JavaScript Lint"/></a>
+		</div>
+		
+		<!--Javascript linkage-->		
+		<script src="ascii.js" type="text/javascript"></script>
+		<script src="animations.js" type="text/javascript"></script>
+		<script src="myanimation.js" type="text/javascript"></script>
+	</body>
+</html>

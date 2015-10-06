@@ -1,0 +1,38 @@
+/******************************
+Name: Suriyaraj Dhanasekaran
+Student No: 87500147
+*******************************/
+
+body {
+	font-family: Garamond,serif; 
+	color: #4B0082;
+	font-size: 12pt;
+	background-image: url("http://ws.mss.icics.ubc.ca/~cics516/cur/hw/hw1/images/background.gif");
+}
+
+h1,h3 {
+	text-align: LEFT;
+	color: #800000;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 25pt;
+}
+
+p {
+	font-size: 18pt;
+	color: darkgreen;
+}
+
+a {
+	color: #483D8B;
+	font-size: 17pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+ul {
+	color: #404040;
+	font-size: 16pt;
+}

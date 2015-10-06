@@ -1,0 +1,50 @@
+/***********************************************************
+Name            : Suriyaraj Dhanasekaran
+Student#        : 87500147
+Description     : This the CSS file for the page ascii.html
+************************************************************/
+
+body{
+	background-color: #CCCCFF;
+	font-size: 14pt;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+h1{
+	font-size: 32pt;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+}
+
+textarea{
+	text-align: center;
+	width: 90%;
+	height: 400px;
+	font-size: 12pt;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+div {
+	text-align: center;
+}
+
+div.float {
+	float: left;
+}
+
+fieldset{
+	border: 5px solid black;
+	display: inline;	
+}
+
+#check{
+	text-align: right;
+	margin: auto;
+}
+
+#textArea{
+	text-align: left;
+}
