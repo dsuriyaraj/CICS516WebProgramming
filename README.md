@@ -1,2 +1,2 @@
 # CICS516WebProgramming
-This is the handson assignment project set for the web programming course
+This is the handson assignment set for the web programming course
